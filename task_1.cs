@@ -6,6 +6,6 @@ int degree = Convert.ToInt32(Console.ReadLine());
 int result = 1;
 for (int i = 0; i < degree; i++)
 {
-    number_n *= number;
+    result *= number;
 }
 Console.WriteLine("{0} ^ {1} = {2}", number, degree, result);
