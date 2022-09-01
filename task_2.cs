@@ -7,6 +7,6 @@ while (number > 0 && number % 10 != 0)
 {
     if (num % (number % 10))
         total += number % 10;
-    number //= 10;
+    number /= 10;
 }
-Console.WriteLine(total);
+Console.Write(total);
